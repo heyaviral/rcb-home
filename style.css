@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bebas neue;
+    transition: 0.3s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-red: #EC1C24;
+    --white: white;
+    --primary-gold: #BEA158;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+
+
+/*     ----HERO SECTION----     */
+
+.btn-primary {
+    border-style: none;
+    padding: 1rem 2rem;
+    background-color: #D4B461;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    background: linear-gradient(#EC1C24, #991217);
+}
+
+.nav-logo {
+    width: 6rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 6rem;
+    font-size: 2.5rem;
+}
+
+.nav-sublinks {
+    color: var(--primary-gold);
+    display: inline-block;
+}
+
+.nav-tickets {
+    font-size: 2.5rem;
+    color: var(--primary-red);
+}
+
+.nav-tickets:hover {
+    scale: 1.05;
+    box-shadow: 0.5px 0.5px 10px gray;
+}
+
+.nav-sublinks:hover {
+    scale: 1.05;
+}
+
+.hero-flex {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
