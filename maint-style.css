@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bebas neue;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-red: #EC1C24;
+    --white: white;
+
+}
+
+
+/*     ----MAINTENANCE PAGE----     */
+
+body {
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.maint-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    letter-spacing: 1px;
+}
+
+.maint-image {
+    width: 20rem;
+}
+
+.maint-heading {
+    background-color: var(--white);
+    color: var(--primary-red);
+    padding: 0.5rem 1rem;
+
+}
+
+.maint-subheading {
+    background-color: var(--primary-red);
+    color: var(--white);
+    padding: 0.3rem 0.6rem;
+}
